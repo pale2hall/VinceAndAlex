@@ -1,0 +1,22 @@
+{
+  "name": "vinceandalex",
+  "version": "1.0.0",
+  "description": "Vince and Alex Wedding Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pale2hall/VinceAndAlex.git"
+  },
+  "author": "Vince Pale",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pale2hall/VinceAndAlex/issues"
+  },
+  "homepage": "https://github.com/pale2hall/VinceAndAlex#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
