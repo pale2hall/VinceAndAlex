@@ -58,5 +58,7 @@ footer{
     padding: .1em .4em;
     border-radius: .2em;
     letter-spacing: 7px;
-  margin: 0;
+    margin-bottom: .5em;
+    margin-top: 0;
+
 }
