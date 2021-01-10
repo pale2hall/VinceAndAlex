@@ -11,7 +11,6 @@
     <div class="card">
       <h2 style="font-size:200%">There's a new baby coming soon!</h2>
       <p  class="baby-bg" style="    font-weight: bold;    font-size: 150%;    padding: .3em;    color: #2d2d2d;" >SATURDAY, JAN 9, 2021 @ 2 PM EST</p>
-      <p id="countdown"></p>
 
       <img src="/images/LEGO2crop.jpg" alt="" style="width:100%">
       
@@ -43,22 +42,5 @@
       <p>Website by <a href="https://pale.io">//pale.io</a>, obviously.  Check the <a href="https://github.com/pale2hall/vinceandalex" target="_blank">GitHub</a>.</p>
     </footer>
     
-<script>
-var countDownDate = new Date("2021-01-09T14:00:00.000-05:00").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
   </body>
 </html>
