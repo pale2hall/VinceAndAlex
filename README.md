@@ -2,4 +2,4 @@
 Vince and Alex Wedding Website
 
 ## Todo: 
-* Tell alex about this
+* Plan a wedding.
